@@ -1,0 +1,96 @@
+.contact-wrapper 
+{
+    background-color: black;
+}
+.contact-container 
+{
+    justify-content: space-between; 
+    gap: 4rem;
+}
+.contact-left 
+{
+    gap: 1rem;
+}
+.contact-left,.contact-right
+{
+    flex: 1;
+}
+.contact-right
+{
+    justify-content: flex-end;
+}
+.contact-card 
+{
+    padding: 1rem; 
+    border-radius: 5px; 
+    border: gray 1px solid; 
+    width: 15rem;
+}
+.card-icon 
+{
+    padding: 10px; 
+    background-color: #eeeeff; 
+    border-radius:5px; 
+    color: blue;
+}
+.card-info .primaryText 
+{
+    font-size: 1.2rem;
+}
+.card-header 
+{
+    gap: 1.6rem;
+}
+.contact-card 
+{
+    gap: 1rem; 
+    transition: 300ms ease all;
+    border: 0.8px solid white;
+}
+.contact-button
+{
+    width: 100%; 
+    transition: 300ms ease all;
+}
+.contact-button:hover 
+{
+    background-color: #16FF00;
+    color: white; 
+    scale: 0.8;
+}
+.contact-card:hover  
+{
+    scale: 1.1;
+}
+.line-1 
+{
+    gap: 1.5rem;
+}
+.line-2
+{
+    gap: 1.5rem;
+}
+.contact-container 
+{
+    flex-wrap: nowrap;
+}
+@media (max-width:1000px) 
+{
+    .contact-container 
+    {
+        flex-direction: column;
+    }
+    .contact-right 
+    {
+        justify-content: center;
+    } 
+    .line-2,.line-1 
+    {
+        flex-direction: column;
+        width: 100%;
+    }
+    .contact-card 
+    {
+        width: 100%;
+    }
+}

@@ -1,0 +1,28 @@
+.collabs-wrapper 
+{
+    background-color: black;
+    position: relative;
+} 
+.collabs-container 
+{
+    justify-content: space-between;
+}
+.collabs-container > img
+{
+    width: 9rem; 
+}
+.collabs-container > img:last-child
+{
+    width: 12rem; 
+}
+.collabs-spot 
+{
+    
+}
+@media (max-width: 800px) 
+{
+    .collabs-container 
+    {
+        flex-direction: column;
+    }
+}

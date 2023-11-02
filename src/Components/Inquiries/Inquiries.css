@@ -1,0 +1,105 @@
+.inquiries-wrapper 
+{
+    background-color: black;
+}  
+.inquiries-container 
+{
+    justify-content: space-between; 
+    gap: 4rem;
+}
+.inquiries-left,.inquiries-right 
+{
+    flex: 1;
+}
+.inquiries-left .image-container 
+{
+    border: 8px solid rgba(255,255,255,0.4);
+}
+.inquiries-right-text 
+{
+    gap: .5rem;
+}
+.inquiries-right 
+{
+    gap: .5rem;
+}
+.accordionHeading 
+{
+    width: 100%;
+}
+.desc 
+{
+    font-size: 1.1rem;
+}
+.accordion 
+{
+    margin-top: 2rem;
+    border:none !important; 
+    width: 100%; 
+    overflow: hidden;
+}
+.accordionItem 
+{
+    border: solid 1px #eeeeff; 
+    margin-bottom: 20px; 
+    border-radius: 15px;
+}
+.accordionButton 
+{
+    justify-content: space-between; 
+    padding: 1rem; 
+    background-color: #810CA8; 
+    cursor: pointer; 
+    border-radius: 15px; 
+}
+
+
+.accordionButton > .primaryText 
+{
+    color: white;
+}
+.accordion-pannel 
+{
+    color: #d7d8e2;
+}
+
+
+.icon 
+{
+    padding: 0.9rem; 
+    background-color: #931aff;
+    border-radius: 10px;
+    color:white; 
+}
+.icon > svg 
+{
+    font-size: 20px;
+}
+.accordion-pannel 
+{
+    padding: 1rem;
+}
+.accordionItem.expanded 
+{
+    box-shadow: var(--shadow);
+}
+.inquiries-container 
+{
+    flex-wrap: nowrap;
+} 
+
+@media (max-width:1000px)
+{
+    .inquiries-container 
+    {
+        flex-direction: column;
+    }
+    .inquiries-left > .image-container 
+    {
+        height: 30rem; 
+    }
+    .accordion-pannel 
+    {
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,22 @@
+[
+    {
+        "start":4000, 
+        "end":9000, 
+        "detail":"Developement Student"
+    },
+    {
+        "start":2000, 
+        "end":4400, 
+        "detail":"Completed course"
+    },
+    {
+        "start":1500, 
+        "end":5700, 
+        "detail":"Benefited Engineers"
+    },
+    {
+        "start":1, 
+        "end":42, 
+        "detail":"Award won"
+    }
+]

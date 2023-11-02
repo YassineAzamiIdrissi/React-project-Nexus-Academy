@@ -1,0 +1,87 @@
+[
+    {
+      "name": "Next js",
+      "price": "47,043",
+      "detail": "Accelerate your skills with our Vite course for rapid web development.",
+      "image": "./pics/Next.webp"
+    },
+    {
+      "name": "Vite",
+      "price": "66,353",
+      "detail": "Accelerate your skills with our Vite course for rapid web development.",
+      "image": "./pics/Vite.png"
+    },
+    {
+      "name": "React js",
+      "price": "35,853",
+      "detail": "Master React, the industry-standard JavaScript library for building dynamic user interfaces",
+      "image": "./pics/React.png"
+    },
+    {
+      "name": "Socket.io",
+      "price": "66,353",
+      "detail": "Dive into real-time communication with our Socket.IO course for web applications.",
+      "image": "./pics/Socket.png"
+    },
+    {
+      "name": "Node js",
+      "price": "47,043",
+      "detail": "Unlock the power of Node.js for server-side JavaScript development mastery.",
+      "image": "./pics/node.png"
+    },
+    {
+      "name": "Angular",
+      "price": "35,853",
+      "detail": "Elevate your web development with our Angular course for modern applications",
+      "image": "./pics/Angular.png"
+    },
+    {
+      "name": "HTML",
+      "price": "35,853",
+      "detail": "Master the foundation of the web with our HTML course.",
+      "image": "./pics/HTML.png"
+    }, 
+    {
+      "name": "CSS",
+      "price": "35,853",
+      "detail": "Transform web design with our CSS course for stunning styles.",
+      "image": "./pics/css3.png"
+    },
+    {
+      "name": "Javascript",
+      "price": "35,853",
+      "detail": "Unleash interactivity with our JavaScript course for dynamic web development",
+      "image": "./pics/JavaScript.png"
+    },
+    {
+      "name": "Typescript",
+      "price": "35,853",
+      "detail": "Enhance your web development with our TypeScript course for strong typing.",
+      "image": "./pics/TypeScript.png"
+    },
+    {
+      "name": "Bootstrap",
+      "price": "35,853",
+      "detail": "Elevate web design with our Bootstrap course for responsive, polished interfaces",
+      "image": "./pics/Bootstrap.png"
+    },
+    {
+      "name": "Tailwind",
+      "price": "35,853",
+      "detail": "Craft elegant web layouts with our Tailwind CSS course for developers.",
+      "image": "./pics/tailwind.png"
+    },
+    {
+      "name": "MongoDB",
+      "price": "35,853",
+      "detail": "Explore data-driven web apps with our MongoDB course for efficient databases.",
+      "image": "./pics/MongoDb.png"
+    },
+    {
+      "name": "Sql",
+      "price": "35,853",
+      "detail": "Master data management with our SQL course for robust database solutions",
+      "image": "./pics/sql.png"
+    }
+  ]
+  

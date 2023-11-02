@@ -1,0 +1,102 @@
+.topSection-wrapper 
+{
+    background-color: var(--black); 
+    color: white;
+}
+.topSection-container{
+    justify-content: space-around;
+}
+.leftSide 
+{
+    gap: 2rem;
+}
+.title-container 
+{
+    position: relative; 
+    z-index: 4000;
+}
+.title-container > h1 
+{
+    font-weight: 600; 
+    font-size: 3.8rem;
+    line-height: 4rem;
+}
+.image-container 
+{
+    width: 30rem;
+    height: 35rem; 
+    border-radius: 15rem 15rem 0 0; 
+    overflow: clip; 
+    border: 8px solid rgba(255,255,255,0.5);
+}
+.image-container > img 
+{
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+}
+.searchbar-container 
+{
+    flex-wrap: nowrap;
+    background-color: white; 
+    border-radius: 5px; 
+    padding: 0.6rem 1rem;
+    width: 100%;
+}
+.searchbar-container > input 
+{
+    font-size: 20px;
+    border: none; 
+    outline: none; 
+    flex: 1; 
+}
+.sec-description > span
+{
+    font-size: 1rem;
+}
+.stats 
+{
+    width: 100%;
+    justify-content: space-around;
+}
+
+.stat >:first-child
+{
+    font-size: 2rem; 
+}
+.ornament 
+{
+    width: 5rem; 
+    height: 5rem; 
+    position: absolute; 
+    background-color: rgb(7, 107, 7);
+    border-radius: 50%; 
+    left: 8rem;
+    z-index: -500;
+}
+
+@media (max-width:800px) 
+{
+    .title-container > h1 
+    {
+        font-size: 2.5rem; 
+        line-height: 3rem;
+    }
+    .image-container 
+    {
+        width: 100%; 
+    }
+    .stats 
+    {
+        justify-content: center; 
+        gap: 1.7rem;
+    }
+    .stat > span{
+        font-size: .7rem;
+    }
+   
+    .searchbar-container 
+    {
+        display: none;
+    }
+} 

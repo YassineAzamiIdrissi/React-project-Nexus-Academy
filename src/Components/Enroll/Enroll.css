@@ -1,0 +1,29 @@
+.enroll-wrapper 
+{
+    background-color: black;
+}
+.enroll-banner 
+{
+    gap: 1.5rem; 
+    background: #404258; 
+    padding: 2rem; 
+    border-radius: 10px; 
+    border: 6px solid #DDF2FD;
+    text-align: center;
+}
+.enroll-banner .primaryText
+{
+    color: white; 
+    font-weight: 600;
+}
+.enroll-banner .secondaryText 
+{
+    color: #ffffff96;
+}
+.enroll-banner a 
+{
+    background:#5a73d7; 
+    border: solid 2px white; 
+    box-shadow:var(--shadow);
+    border-radius: 10px;
+}
